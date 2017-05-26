@@ -37,8 +37,8 @@ LIB_PATH_DEBUG	= lib/debug
 # Compiler options
 CFLAGS		= -std=c99
 CXXFLAGS	= -std=c++98
-CCFLAGS_RELEASE	= -O3 -fPIC -Wall -Wpedantic
-CCFLAGS_DEBUG	= -g3 -O0 -Wall -Wpedantic
+CCFLAGS_RELEASE	= -O3 -fPIC -Wall -pedantic
+CCFLAGS_DEBUG	= -g3 -O0 -Wall -pedantic
 INCLUDE		= -Iinclude
 
 # C options
